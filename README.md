@@ -10,8 +10,4 @@ This project covers:
 - **CI/CD Automation**: Leverage GitHub Actions to automate deployments.
 
 
-
-## 📢 Spread the Word
-Share your journey with your network and tag me, [Aman Pathak](https://www.linkedin.com/in/aman-devops), when you post your blogs on LinkedIn. Let's learn together!
-
 Happy learning and blogging! 🌟
