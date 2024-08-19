@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/belwalrohit642/MERN.git'
+              checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'gitcred', url: 'https://github.com/belwalrohit642/MERN.git']])
             }
         }
         stage('Init') {
